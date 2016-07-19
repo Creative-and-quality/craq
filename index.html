@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+	<head>
+		<meta charset="UTF-8">
+		<title>CRaQ</title>
+		<link rel="stylesheet" href="css/bundle.min.css">
+		<script type="text/javascript" src="js/jquery-2.2.4.min.js"></script>
+		<script type="text/javascript" src="js/js.js"></script>
+	</head>
+
+	<body>
+		
+		<div class="wraper">
+			
+			<div class="header" id="button-up">
+
+				<div class="header-wraper">
+
+					<div class="nav-wraper">
+						<div class="header__logo-wrap">
+							<img class="header__logo" src="css/img/logo.png" alt="logo">
+						</div>
+						<nav class="nav">
+							<ul class="nav__list">
+								<li class="nav__title"><a class="nav__link" href="#">Главная</a></li>
+								<li class="nav__title"><a class="nav__link scroll" href="#company">О компании</a></li>
+								<li class="nav__title"><a class="nav__link scroll" href="#product">Наш продукт</a></li>
+								<li class="nav__title"><a class="nav__link scroll" href="#reviews">Отзывы</a></li>
+								<li class="nav__title"><a class="nav__link scroll" href="#footer">Контакты</a></li>
+							</ul>
+						</nav>
+						<div class="nav-button">
+							<div class="nav-button__elem"></div>
+							<div class="nav-button__elem"></div>
+							<div class="nav-button__elem"></div>
+						</div>
+					</div>
+
+					<div class="header-company-wraper">
+						<h1 class="header-company__name">CREATIVE and QUALITY</h1>
+						<h2 class="header-company__slogan">Мы делаем бизнес лучше</h2>
+					</div>
+
+				</div>
+
+				<img class="header__background-image" src="css/img/header_background.jpg" alt="background" >
+
+			</div>
+
+			<!-- Slider -->
+			<div class="slider">
+
+				<div class="slider__list-wrap">
+					<ul class="slider__list">
+						<li class="slider__item active">
+							<img class="slider__img" src="css/img/slider/slider_1.jpg" alt="slider-image" >
+						</li>
+						<li class="slider__item">
+							<img class="slider__img" src="css/img/slider/cap.jpg" alt="slider-image" >
+						</li>
+						<li class="slider__item">
+							<img class="slider__img" src="css/img/slider/cap.jpg" alt="slider-image" >
+						</li>
+					</ul>
+					<div class="slider__dots-box">
+						<div class="slider__dots-wrap">
+							<div class="slider__dots-separator"></div>
+							<ul class="slider__dots"></ul>
+							<div class="slider__dots-separator"></div>
+						</div>
+					</div>
+				</div>
+				<div class="slider__content">
+					<div class="slider__controls-button-wrap">
+						<a class="slider__controls-button slider__controls-button_prev" href="#" ></a>
+					</div>
+					<div class="slider__content-box">
+						<ul class="slider__content-list">
+							<li class="slider__content-item active-content">
+								<div class="slider__content-title">CRaQ</div>
+								<div class="slider__content-text">We do business better (а людей более счастливыми)</div>
+							</li>
+							<li class="slider__content-item">
+								<div class="slider__content-title">Попробовать продукт</div>
+								<div class="slider__content-text">Оцените достоинства нашего продукта совершенно бесплатно</div>
+								<div class="slider__button-wrap">
+									<button class="slider__button slider__button_margin-right">Демо</button>
+									<button class="slider__button" id="slider-product-features">Возможности продукта</button>
+								</div>
+							</li>
+							<li class="slider__content-item">
+								<div class="slider__content-title">Хотите большего?</div>
+								<div class="slider__content-text">Еще больше возможностей в полной версии приложения</div>
+								<div class="slider__button-wrap">
+									<button class="slider__button" id="slider-buy-button">Купить полную версию</button>
+								</div>
+							</li>
+						</ul>
+						<button class="header-contacts__button header-contacts__button_z-index-2">Узнать больше</button>
+					</div>
+					<div class="slider__controls-button-wrap">
+						<a class="slider__controls-button slider__controls-button_next" href="#" ></a>
+					</div>
+				</div>
+
+				<!-- заглушка слайдера -->
+				<div class="slider-cap">
+					<div class="slider-cap__content-wrap">
+						<div class="slider-cap__content-title">CRaQ</div>
+						<div class="slider-cap__content-text">We do business better (а людей более счастливыми)</div>
+					</div>
+				</div>
+
+				<img class="slider-cap__img" src="css/img/slider/slider_cap.jpg" alt="CRaQ">
+				<!-- end_заглушка слайдера -->
+
+			</div>
+			<!-- end_Slider -->
+
+
+			<!-- О_компании -->
+			<div class="company" id="company">
+				
+				<div class="company-wrap">
+					<div class="company__title">
+						<h2 class="company__title-text">О КОМПАНИИ</h2>
+					</div>
+					<div class="company__content">
+						<div class="company__content-block">
+							<div class="company__block-icon-wrap">
+								<img class="company__block-icon" src="css/img/icon_who.png" alt="icon">
+							</div>
+							<div class="company__block-text-wrap">
+								<h3 class="company__block-title">КТО МЫ?</h3>
+								<p class="company__block-text">Дружная команда из 12 разработчиков, ведущая работу на HTML/CSS, Java Script, Java, Ruby, C# и ASP.NET</p>
+							</div>
+
+						</div>
+						<div class="company__content-block">
+							<div class="company__block-icon-wrap">
+								<img class="company__block-icon" src="css/img/icon_occupation.png" alt="icon">
+							</div>
+							<div class="company__block-text-wrap">
+								<h3 class="company__block-title">ЧЕМ МЫ ЗАНИМАЕМСЯ?</h3>
+								<p class="company__block-text">Мы создаем высоконагруженные системы и веб-сервисы, которые удобны пользователю и способны на 80% автоматизировать рутинные повседневные задачи бизнеса</p>
+							</div>
+						</div>
+						<div class="company__content-block">
+							<div class="company__block-icon-wrap">
+								<img class="company__block-icon" src="css/img/icon_mission.png" alt="icon">
+							</div>
+							<div class="company__block-text-wrap">
+								<h3 class="company__block-title">НАША МИССИЯ</h3>
+								<p class="company__block-text">Изменить жизнь к лучшему через высокие технологии, приносящие пользу</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<img class="company__background-image1" src="css/img/company_background.jpg" alt="background" >
+				<img class="company__background-image2" src="css/img/company_background.jpg" alt="background" >
+
+			</div>
+			<!-- end_О_компании -->
+
+
+			<!-- Наш_продукт -->
+			<div class="product" id="product">
+
+				<div class="product__description-wrap">product-image
+					<div class="product__description product__description_button">
+						<div class="product__description-text-wrap">
+							<h2 class="product__description-title">НАШ ПРОДУКТ</h2>
+							<p class="product__description-text">
+								Веб-приложение, отвечающее современным стандартам по уровню функциональности, удобства и безопасности. Оно позволяет за короткий срок составить рейтинг любой поисковый фразы по упоминанию в источниках интернета.
+							</p>
+						</div>
+						<div class="product__button-wrap">
+							<button class="product__button product__button_margin-right">Демо</button>
+							<button class="product__button" id="buy-button">Купить полную версию</button>
+						</div>
+					</div>
+					<div class="product__image-wrap"><img class="product__image" src="css/img/what_do.jpg" alt="product-image"></div>
+				</div>
+
+				<div class="product__description-wrap product__description-wrap_reverse">
+					<div class="product__description">
+						<div class="product__description-text-wrap">
+							<h2 class="product__description-title">ДЛЯ КОГО?</h2>
+							<p class="product__description-text">
+								Наши клиенты маркетинговые и рейтинговые агентства, которые хотят сократить бюджет и сроки на исследование рекламной ниши. С нашим сервисом вы экономите на 75% времени на сбор информации и статистики.
+							</p>
+						</div>
+					</div>
+					<div class="product__image-wrap"><img class="product__image" src="css/img/for_whom.jpg" alt="product-image"></div>
+				</div>
+
+				<div class="product__description-wrap">
+					<div class="product__description product__description_button">
+						<div class="product__description-text-wrap">
+							<h2 class="product__description-title">ЧТО МОЖЕТ НАШ СЕРВИС?</h2>
+							<p class="product__description-text">
+								Быстро исследовать и составить статистику по количеству упоминаний ключевого слова на выбранном сайте или нескольких ресурсах.
+							</p>
+						</div>
+						<div class="product__button-wrap">
+							<button class="product__button product__button_margin-right" id="product-features">Возможности продукта</button>
+						</div>
+					</div>
+					<div class="product__image-wrap"><img class="product__image" src="css/img/what_can.jpg" alt="product-image"></div>
+				</div>
+
+				<div class="product__description-wrap product__description-wrap_reverse">
+					<div class="product__description">
+						<div class="product__description-text-wrap">
+							<h2 class="product__description-title">ВЫГОДЫ ОТ ИСПОЛЬЗОВАНИЯ?</h2>
+							<ul class="product__description-list">
+								<li class="product__description-text product__description-text_li">
+									Удобный интерфейс.
+								</li>
+								<li class="product__description-text product__description-text_li">
+									Техническое тестирование.
+								</li>
+								<li class="product__description-text product__description-text_li">
+									Обучение использованию приложения.
+								</li>
+								<li class="product__description-text product__description-text_li">
+									Техподдержка и ведение сервиса в режиме 24/7.
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="product__image-wrap"><img class="product__image" src="css/img/profit.jpg" alt="product-image"></div>
+				</div>
+
+			</div>
+			<!-- end_Наш_продукт -->
+
+
+			<!-- Отзывы -->
+			<div class="reviews" id="reviews">
+
+					<div class="reviews__title">
+						<h2 class="reviews__title-text">ОТЗЫВЫ</h2>
+					</div>
+
+					<div class="reviews__content">
+
+						<div class="reviews__content-block">
+							<figure class="reviews__block-icon-wrap">
+								<img class="reviews__block-icon" src="css/img/human_1.jpg" alt="photo">
+								<figcaption class="reviews__block-caption">
+									<span class="reviews__block-caption-text reviews__block-caption-text_1">Алексей Артюшкин</span>
+									<span class="reviews__block-caption-text reviews__block-caption-text_2">Руководитель проекта «ГОС ДПК»</span>
+								</figcaption>
+							</figure>
+							<div class="reviews__block-text-wrap">
+								<h3 class="reviews__block-title">МНОГИЕ ЗНАКОМЫЕ БИЗНЕСМЕНЫ, УВИДЕВ НАШЕ ПРИЛОЖЕНИЕ ПРОСЯТ КОНТАКТЫ КОМАНДЫ</h3>
+								<p class="reviews__block-text">За выполненную работу ставлю твердую пятерку. Мы уже не раз слышали от клиентов, что у нас «красивый сайт». Но самое главное, что помимо красоты, приложение еще и очень быстро находит, и составляет статистику!</p>
+							</div>
+						</div>
+
+						<div class="reviews__content-block">
+							<figure class="reviews__block-icon-wrap">
+								<img class="reviews__block-icon" src="css/img/human_2.jpg" alt="photo">
+								<figcaption class="reviews__block-caption">
+									<span class="reviews__block-caption-text reviews__block-caption-text_1">Николай Родионов</span>
+									<span class="reviews__block-caption-text reviews__block-caption-text_2">Компания «Профит-Плюс»</span>
+								</figcaption>
+							</figure>
+							<div class="reviews__block-text-wrap">
+								<h3 class="reviews__block-title">РЕБЯТА ОТЛИЧНО ОРИЕНТИРУЮТСЯ В СВОЕЙ ТЕМЕ</h3>
+								<p class="reviews__block-text">Работой очень доволен, потому что результаты превзошли все мои ожидания. Получил много ценных советов, до которых сам бы не додумался. Все свои следующие проекты буду делать только с ними.</p>
+							</div>
+						</div>
+
+						<div class="reviews__content-block">
+							<figure class="reviews__block-icon-wrap">
+								<img class="reviews__block-icon" src="css/img/human_3.jpg" alt="photo">
+								<figcaption class="reviews__block-caption">
+									<span class="reviews__block-caption-text reviews__block-caption-text_1">Сагутдинов Рустам</span>
+									<span class="reviews__block-caption-text reviews__block-caption-text_2">Директор маркетинговой компании «СтимулСтрим»</span>
+								</figcaption>
+							</figure>
+							<div class="reviews__block-text-wrap">
+								<h3 class="reviews__block-title">РАБОТА МЕНЯ ВСЕЦЕЛО УСТРОИЛА. ОСОБЕННО ПОНРАВИЛОСЬ ОТНОШЕНИЕ К ЗАКАЗЧИКУ И КАЧЕСТВО ВЫПОЛНЕННЫХ РАБОТ</h3>
+								<p class="reviews__block-text">Задач было несколько. Во-первых: найти отличную организацию-исполнителя, умеющую работать быстро, креативно, качественно и именно так, как надо нам. Во-вторых: придумать новую концепцию и стиль. Перебрав множество предложений из интернета (что-то меня в них не устраивало), я решил обратиться к рекомендации друзей. Работа с компанией " CraQ " меня всецело устроила, особенно понравились взаимоотношения и качество выполнения работ!</p>
+							</div>
+						</div>
+
+					</div>
+
+			</div>
+			<!-- end_Отзывы -->
+
+
+			<!-- Footer -->
+			<footer class="footer" id="footer">
+				
+				<div class="footer-title">
+					<h2 class="footer-title__text">Мы с удовольствием ответим на ваши вопросы</h2>
+				</div>
+
+				<form class="footer-form" action="">
+					<div class="footer-form__input-wrap">
+						<input class="footer-form__input" type="text" placeholder="Имя">
+						<input class="footer-form__input" type="email" placeholder="E-mail">
+						<input class="footer-form__input" type="tel" placeholder="Телефон">
+					</div>
+					<div class="footer-form__textarea-wrap">
+						<textarea class="footer-form__textarea" placeholder="Сообщение"></textarea>
+					</div>
+					<div class="footer-form__submit-wrap">
+						<button class="footer-form__submit" type="submit">Отправить</button>
+					</div>
+				</form>
+
+				<div class="footer-info">
+					<div class="footer-info__logo-wrap">
+						<img class="footer-info__logo" src="css/img/logo.png" alt="logo">
+					</div>
+					<div class="footer-info__rights-wrap">
+						<span class="footer-info__rights">&#169; 2016 nash_site.com</span>
+						<span class="footer-info__rights">
+							Перепечатка и использование материалов с данного сайта, разрешена только по согласию с владельцем. Владелец оставляет за собой право воспользоваться 146 статьей УК РФ при нарушении авторских и смежных прав. Буду бить аккуратно, но сильно :)
+						</span>
+					</div>
+					<div class="footer-info__contacts-wrap">
+						<span class="footer-info__contacts">тел. 8-800-000-00-00</span>
+						<span class="footer-info__contacts">e-mail: adress@adress.com</span>
+					</div>
+				</div>
+
+			</footer>
+			<!-- end_Footer -->
+
+
+			<!-- кнопка прокрутки вверх -->
+			<button class="button-up" href="#button-up">
+				<div class="button-up__arrow"></div>
+			</button>
+			<!-- end_кнопка прокрутки вверх -->
+
+
+			<!-- Popup -->
+			<div class="popup-shadow"></div>
+
+			<div class="popup" id="popupRequest">
+				<div class="popup__wraper">
+					<div class="popup__close">
+						<button class="popup__close-button"></button>
+					</div>
+					<form class="popup__form" action="">
+							<input class="popup__input-text" type="text" placeholder="Имя">
+							<input class="popup__input-text" type="email" placeholder="E-mail">
+							<input class="popup__input-text" type="tel" placeholder="Телефон">
+							<textarea class="popup__textarea" placeholder="Сообщение"></textarea>
+							<input class="popup__submit-button" type="submit">
+						</div>
+					</form>
+				</div>
+			</div>
+
+			<div class="popup" id="popupAccepted">
+				<div class="popup__wraper popup__wraper_accepted">
+					<div class="popup__close">
+						<button class="popup__close-button"></button>
+					</div>
+					<div class="popup__title">
+						Спасибо! Ваша заявка принята в обработку!
+					</div>
+				</div>
+			</div>
+
+			<div class="popup" id="popupFooter">
+				<div class="popup__wraper popup__wraper_accepted">
+					<div class="popup__close">
+						<button class="popup__close-button"></button>
+					</div>
+					<div class="popup__title">
+						Спасибо! Мы ответим Вам в ближайшее время!
+					</div>
+				</div>
+			</div>
+			<!-- end_Popup -->
+
+			<!-- Popup-product -->
+			<div class="popup-product">
+
+				<div class="popup-product__wraper">
+
+					<div class="popup-product__close">
+						<button class="popup__close-button"></button>
+					</div>
+
+					<div class="popup-product__title">
+						<h2 class="popup-product__title-text">Возможности продукта</h2>
+					</div>
+
+					<table class="popup-product-table">
+
+						<tr class="product-table__line">
+							<td class="product-table__cell product-table__cell_1 product-table__cell_title">Версия продукта</td>
+							<td class="product-table__cell product-table__cell_2 product-table__cell_title">Демо</td>
+							<td class="product-table__cell product-table__cell_3 product-table__cell_title">PRO</td>
+						</tr>
+
+						<tr class="product-table__line">
+							<td class="product-table__cell product-table__cell_1">Просмотр общей статистики</td>
+							<td class="product-table__cell">
+								<img src="css/img/icon_es.svg" alt="icon" class="product-table__icon">
+							</td>
+							<td class="product-table__cell">
+								<img src="css/img/icon_es.svg" alt="icon" class="product-table__icon">
+							</td>
+						</tr>
+
+						<tr class="product-table__line">
+							<td class="product-table__cell product-table__cell_1">Просмотр ежедневной статистики</td>
+							<td class="product-table__cell">
+								<img src="css/img/icon_es.svg" alt="icon" class="product-table__icon">
+							</td>
+							<td class="product-table__cell">
+								<img src="css/img/icon_es.svg" alt="icon" class="product-table__icon">
+							</td>
+						</tr>
+
+						<tr class="product-table__line">
+							<td class="product-table__cell product-table__cell_1">Неограниченное редактирование списка сайтов на обход</td>
+							<td class="product-table__cell">
+								<img src="css/img/icon_no.svg" alt="icon" class="product-table__icon_no">
+							</td>
+							<td class="product-table__cell">
+								<img src="css/img/icon_es.svg" alt="icon" class="product-table__icon">
+							</td>
+						</tr>
+
+						<tr class="product-table__line">
+							<td class="product-table__cell product-table__cell_1">Неограниченное редактирование справочника</td>
+							<td class="product-table__cell">
+								<img src="css/img/icon_no.svg" alt="icon" class="product-table__icon_no">
+							</td>
+							<td class="product-table__cell">
+								<img src="css/img/icon_es.svg" alt="icon" class="product-table__icon">
+							</td>
+						</tr>
+
+					</table>
+
+				</div>
+
+			</div>
+
+		</div>
+
+	</body>
+
+</html>
